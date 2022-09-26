@@ -1,0 +1,32 @@
+.delivery-container {
+    background-color: #8ae7de;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+
+.delivery-heading{
+    text-align: center;
+    width: 20%;
+    background-color: #0e5c71; 
+    margin: 3rem 0;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.delivery-heading h1{
+    color: white;
+}
+
+.delivery-product-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,32 @@
+.service-container {
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #66ab8c;
+    padding: 3rem 0 5rem;
+}
+
+.service-heading{
+    text-align: center;
+    width: 20%;
+    background-color: #0b623b; 
+    margin: 5rem 0;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.service-heading h1{
+    color: white;
+}
+
+.service-product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

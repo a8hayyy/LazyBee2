@@ -1,0 +1,38 @@
+.fruit-container{
+    height: 100%;
+    margin: 10rem 0 0 30rem;
+    position: absolute;
+}
+
+
+
+
+/* .fruit-heading-container{
+    position:fixed;
+    top:8rem;
+} */
+
+.fruit-heading-container h1{
+    color: rgb(8, 8, 8);
+    font-size: 8rem;
+    border-bottom: 2px solid black;
+}
+
+
+
+.fruit-heading-container h1{
+    font-size: 8rem;
+    
+}
+
+.fruit-item-container{
+    overflow: hidden;
+    /* margin-top: 18rem; */
+    position:absolute;
+}
+
+@media screen and (max-width:786px) {
+    .fruit-container{
+        margin-left: 0rem;
+    }
+}

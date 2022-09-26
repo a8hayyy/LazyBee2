@@ -1,0 +1,26 @@
+.item-container{
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 3rem 0rem;
+    padding: 2rem;
+    border-radius: 5px;
+    
+}
+
+.item-name-container{
+    font-size: 2rem;
+}
+
+.item-price-container{
+    font-size: 1.5rem;
+}
+
+@media (max-width:786px) {
+    .item-container{
+        width: 45rem;
+    }
+}
